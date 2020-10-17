@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Accenture Accademy</title>
 </head>
 <body class=app>
-	<applet code="dev/WebInterface.class" archive="app.jar">
   <div class="nokia">
     <div class="body"></div>
     <div class="side"></div>
@@ -19,53 +18,33 @@
     </div>
     <div class="top"></div>
     <div class="screen">
-        <p>Accenture ></p>
+        <p id="texto">Accenture ></p>
     </div>
     <div class="buttons">
-        <div class="home" id="enter"></div>
+        <div class="home"></div>
         <div class="call"></div>
         <div class="select">
             <div class="arrow"></div>
         </div>
-        <div class="keys n1" id="n1">1</div>
-        <div class="keys n2" id="n2">2</div>
-        <div class="keys n3" id="n3">3</div>
-        <div class="keys n4" id="n4">4</div>
-        <div class="keys n5" id="n5">5</div>
-        <div class="keys n6" id="n6">6</div>
-        <div class="keys n7" id="n7">7</div>
-        <div class="keys n8" id="n8">8</div>
-        <div class="keys n9" id="n9">9</div>
-        <div class="keys n0" id="n0">0</div>
+        <div class="keys n123">
+            <span class="num1" onclick="getElementById('texto').innerHTML=1">1</span>
+            <span class="num2" onclick="getElementById('texto').innerHTML=2">2</span>
+            <span class="num3" onclick="getElementById('texto').innerHTML=3">3</span>
+        </div>
+        <div class="keys n456">
+            <span class="num4" onclick="getElementById('texto').innerHTML=4">4</span>
+            <span class="num5" onclick="getElementById('texto').innerHTML=5">5</span>
+            <span class="num6" onclick="getElementById('texto').innerHTML=6">6</span>
+        </div>
+        <div class="keys n789">
+            <span class="num7" onclick="getElementById('texto').innerHTML=7">7</span>
+            <span class="num8" onclick="getElementById('texto').innerHTML=8" >8</span>
+            <span class="num9" onclick="getElementById('texto').innerHTML=9">9</span>
+        </div>
+        <div class="keys n0">
+            <span class="num0" onclick="getElementById('texto').innerHTML=0">0</span>
+        </div>
     </div>
 </div> 
 </body>
-<script>
-
-    function clique (n) {
-
-        let MyString = ''
-
-        
-            if (n != 'enter') {
-                MyString = MyString+n
-            } else {
-                console.log(MyString)
-                return MyString
-            }
-        
-    }
-
-    n2.onclick = clique('2')
-    n3.onclick = clique('3')
-    n4.onclick = clique('4')
-    n5.onclick = clique('5')
-    n6.onclick = clique('6')
-    n7.onclick = clique('7')
-    n8.onclick = clique('8')
-    n9.onclick = clique('9')
-    n0.onclick = clique('0')
-    enter.onclick = clique('enter')
-
-</script>
 </html>
