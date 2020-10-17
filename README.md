@@ -1,6 +1,6 @@
 ## AccentureTijolao
 
-#Caso Técnico 
+#Caso Técnico: 
 Lembram daqueles celulares bem antigos, que tinham letras
 nas teclas numéricas? Era através dos números que a gente
 digitava palavras e frases em mensagens.
