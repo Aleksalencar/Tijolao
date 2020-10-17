@@ -160,6 +160,11 @@ body, html {
   border-right: 2px solid tint(#06050a, 20%);
 }
 
+.screen p{
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
 .logo {
   position: absolute;
   top: 18%;
@@ -185,7 +190,7 @@ body, html {
 .logo p {
   position: absolute;
   top: -4px;
-  left: 3px;
+  left: -2px;
   color: #bcbbc0;
   font-size: 14px;
   font-family: 'Dhurjati', sans-serif;
@@ -242,6 +247,62 @@ body, html {
 }
 
 /* BUTTONS */
+.num1{
+  position: absolute;
+  margin-left: -36px;
+  margin-top: -5px;
+}
+
+.num2{
+  margin-left: 11px;
+}
+
+.num3{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 38px;
+  z-index: 999;
+}
+
+.num4{
+  position: absolute;
+  margin-left: -36px;
+  margin-top: -5px;
+}
+
+.num5{
+  margin-left: 11px;
+}
+
+.num6 {
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 38px;
+  z-index: 999;
+}
+.num7{
+  position: absolute;
+  margin-left: -38px;
+  margin-top: -5px;
+}
+
+.num8{
+  margin-left: 11px;
+}
+
+.num9{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 38px;
+  z-index: 999;
+}
+
+.num0{
+  z-index: 999;
+  margin-top: -4px;
+  margin-left: 13px;
+}
+
 .buttons {
   position: absolute;
   top: 46%;
@@ -500,4 +561,5 @@ body, html {
   width: 4px;
   background: #06050a;
 }
+
 
