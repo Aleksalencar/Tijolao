@@ -1,7 +1,9 @@
-Cores Nokia Tijolão:
-
-Carcaça (Azul/Roxo): 	#3b3e51
-Teclas: 		#f6f6f6
-Números e Letras: 	#000000
-Tela: 			#78a27a
-Tecla Enter (interior): #31808d
+/* COLORS */
+$bg:#A100FF 
+$black: #06050a
+$screen: #7aa079
+$d-grey: #404257
+$o-grey: #383A4C
+$silver: #fbfbfb
+$l-grey: #bcbbc0
+$blue: #2684a6
